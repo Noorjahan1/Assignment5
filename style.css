@@ -1,0 +1,178 @@
+*{
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 10px;
+}
+a{
+    text-decoration: none;
+}
+
+nav {
+     
+    background-color: #fff;
+    padding: 10px 100px;
+    margin-top: 50px;
+}
+nav ul {
+    display: flex;
+    justify-content:space-between;
+}
+.heart img{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+.blue{
+    background:rgba(201, 233, 208, 0.721);
+    padding: 10px 20px;
+    text-align: center;
+    color: black;
+    border-radius:100px;
+    margin-left: 30px;
+}
+.home{
+    padding-right: 10px;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+.green{
+    background: #00A63E;
+    padding: 10px 30px;
+    text-align: center;
+   
+    border-radius:100px;
+    margin-left: 30px;
+
+}
+.green a{
+    color: white;
+     font-size: 20px;
+     font-weight: bold;
+}
+.banner {
+    
+    text-align: center;
+    padding: 50px;
+    background:linear-gradient(to right, #013223, #006747,#013223);
+   color: white;
+    margin-top: 20px;
+    line-height: 50px;
+  
+}
+.banner-image img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.banner-grid{
+    display: grid;
+    grid-template-columns:3fr 1fr;
+    gap: 100px;
+    margin: 30px;
+   
+    border:1px solid  rgba(0, 0, 0);
+
+}
+.image{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:20px;
+}
+.image img{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.call p img{
+display: inline;
+   vertical-align: middle;
+  
+}
+.Vector {
+    width:5px;
+    height: 5px;
+}
+.copyCall{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.copy{
+    border:2px solid #D4D6D5;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+.call{
+    background:#00A63E;
+    padding: 10px 50px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+.copyText{
+    color: #1c1e1d;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.callText{
+    color: white;
+    font-weight: bold;
+}   
+.copy p img{
+    display: inline;
+   vertical-align: middle;
+   
+}
+.all p{
+    background: #F2F2F2;
+    
+    width: 50px;
+    border-radius: 30px;
+    text-align: center;
+    display: inline-block;
+}
+.grid-item{
+    border:1px solid lightgray;
+    padding: 20px;
+    border-radius: 10px;
+}
+.right{
+    border:1px solid rgba(0, 0, 0, 0.678);
+    border-radius: 5px;
+}
+.callHistory{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.container{
+    display:flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+.clear{
+    background: #00A63E;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+}
+.history{
+    padding: 20px;
+    background: #FAFAFA;
+    margin: 10px;
+    border-radius: 5px;
+}
